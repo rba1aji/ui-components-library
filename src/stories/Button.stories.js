@@ -36,3 +36,10 @@ SecondarySmall.args = {
   label: 'Button',
   backgroundColor:'grey'
 };
+
+export const YellowLarge = Template.bind({});
+YellowLarge.args = {
+  size: 'large',
+  label: 'Yellow',
+  backgroundColor: 'yellow'
+}
