@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=47befc608f64"
   },
   "author": "",
   "license": "MIT",
@@ -21,6 +22,7 @@
     "@storybook/react": "^6.5.15",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.15.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -28,5 +30,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
-  "dependencies": {}
+  "readme": "ERROR: No README data found!",
+  "_id": "ui-components-library@1.0.0"
 }
