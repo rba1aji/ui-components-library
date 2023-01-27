@@ -31,5 +31,8 @@
     "react-dom": "^18.2.0"
   },
   "readme": "ERROR: No README data found!",
-  "_id": "ui-components-library@1.0.0"
+  "_id": "ui-components-library@1.0.0",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
 }

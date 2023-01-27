@@ -1,0 +1,38 @@
+.content_img{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin-right: 10px;
+}
+.content_img div{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    font-size: 20px;
+    scroll-behavior: smooth;
+    transform: translateY(300px);
+    transition: 2s;
+    font-weight: 700;
+}
+.content_img:hover{
+    cursor: pointer;
+}
+.content_img:hover div{
+    width: 100%;
+    visibility: visible;
+    opacity: 1; 
+    align-items:center ; 
+    transform: translateY(0);
+}
+p{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 20px;
+}
