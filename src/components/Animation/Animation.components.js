@@ -1,7 +1,7 @@
 import React from "react";
-import './Scroll.components.css'
+import './Animation.components.css'
 
-export default function Scroll(props) {
+export default function Animation(props) {
 
     const { color, backgroundColor, text, image, width, height } = props;
 

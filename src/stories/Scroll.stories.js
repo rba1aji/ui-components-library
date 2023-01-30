@@ -1,12 +1,12 @@
 import React from "react";
-import Scroll from "../components/Scroll/Scroll.components";
+import Animation from "../components/Animation/Animation.components";
 
 export default{
-    title:'Components/Scroll on hover',
-    component: Scroll,
+    title:'Components/Hover Animation',
+    component: Animation,
 };
 
-const Template = (args) => <Scroll {...args} />;
+const Template = (args) => <Animation {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
