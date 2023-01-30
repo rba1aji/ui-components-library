@@ -33,7 +33,7 @@ export const IFrame = ({
                 overflow: 'hidden',
             }}
             className='mx-auto px-auto'
-            title="Weaveroo Products Fetcher Modal"
+            title="IFrame Shadow Root"
         >
             {mountNode && createPortal(children, mountNode)}
         </iframe>
