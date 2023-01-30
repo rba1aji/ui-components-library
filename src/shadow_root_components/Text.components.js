@@ -6,14 +6,12 @@ export default function ShadowRootText(props) {
 
     return (
         <IFrame>
+            <style>{cssString}</style>
             <div className="text">
-                <style>
-                    {cssString}
-                </style>
                 <h1>Just text</h1>
-                <p>
+                <h3>
                     My color will be red, if css is working. else it will be black.
-                </p>
+                </h3>
             </div>
         </IFrame>
     )
