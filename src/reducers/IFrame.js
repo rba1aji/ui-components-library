@@ -1,9 +1,7 @@
 import { createPortal } from "react-dom";
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
-export const IFrame = ({
-    children
-}) => {
+export const IFrame = ({ children }) => {
 
     const [contentRef, setContentRef] = useState(null);
     const mountNode = contentRef?.contentWindow?.document?.body;

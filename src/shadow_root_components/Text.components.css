@@ -1,3 +1,7 @@
 .text {
     color: red;
 }
+
+.text:hover {
+    color: blue;
+}
