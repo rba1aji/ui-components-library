@@ -1,12 +1,12 @@
-import React from "react";
-import ShadowRootText from "../shadow_root_components/Text.components";
+// import React from "react";
+// import ShadowRootText from "../shadowroot_components/Text.components";
 
-export default {
-    title: 'Components/Shadow Root/Text',
-    component: ShadowRootText,
-};
+// export default {
+//     title: 'Components/Shadow Root/Text',
+//     component: ShadowRootText,
+// };
 
-const Template = (args) => <ShadowRootText {...args} />;
+// const Template = (args) => <ShadowRootText {...args} />;
 
-export const Default = Template.bind({});
-Default.args = {};
+// export const Default = Template.bind({});
+// Default.args = {};
