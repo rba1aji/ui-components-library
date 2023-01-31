@@ -1,9 +1,9 @@
-import ReactShadowRoot from 'react-shadow-root'
+import { ShadowRoot } from '../reducers/ShadowRoot'
 
 export default function ShadowRootText() {
 
     return (
-        <ReactShadowRoot>
+        <ShadowRoot>
             <style>
                 {require('!raw-loader!./Text.components.css').default}
             </style>
@@ -14,6 +14,6 @@ export default function ShadowRootText() {
                     hover me to change my color to Blue.
                 </h3>
             </div>
-        </ReactShadowRoot>
+        </ShadowRoot>
     )
 }
