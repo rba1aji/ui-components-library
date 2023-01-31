@@ -3,14 +3,11 @@ module.exports = {
     "../src/**/*.stories.mdx",
     "../src/**/*.stories.@(js|jsx|ts|tsx)"
   ],
-  "addons": [
-    "@storybook/addon-storysource", 
+  "addons": [ 
     "@storybook/addon-actions",
-    "@storybook/addon-a11y",
-    "@storybook/addon-viewport",  
-    "@storybook/addon-docs",
-    "@storybook/addon-controls" 
+    "@storybook/addon-viewport"
   ],
   "framework": "@storybook/react"
 }
 
+/*"@storybook/addon-storysource",*/
