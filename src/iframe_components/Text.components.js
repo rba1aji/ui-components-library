@@ -1,4 +1,4 @@
-import { IFrame } from "../reducers/IFrame";
+import { IFrame } from "../wrappers/IFrame";
 
 export default function IFrameText() {
 
