@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../components/Button/Button.components';
 
 export default {
-  title: 'Components/Button',
+  title: 'Components/Buttons',
   component: Button,
   argTypes: {
     backgroundColor: { control: 'color' },
@@ -20,19 +20,6 @@ Primary.args = {
 export const Secondary = Template.bind({});
 Secondary.args = {
   label: 'Button',
-  backgroundColor:'grey',
+  backgroundColor: 'grey',
 };
 
-export const PrimaryLarge = Template.bind({});
-PrimaryLarge.args = {
-  primary: 'true',
-  size: 'large',
-  label: 'Button',
-};
-
-export const SecondarySmall = Template.bind({});
-SecondarySmall.args = {
-  size: 'small',
-  label: 'Button',
-  backgroundColor:'grey'
-};
