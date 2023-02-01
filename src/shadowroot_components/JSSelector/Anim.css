@@ -1,9 +1,24 @@
 .container {
-    color: whitesmoke;
-    background-color: green;
+    background-color: whitesmoke;
+    color: green;
 }
 
 .change-color {
-    color: green;
-    background-color: white;
+    position: relative;
+    animation: slide-from-right 0.5s 1 ease-in-out forwards;
+    background-color: green;
+    color: white;
+    overflow: hidden;
+}
+
+@keyframes slide-from-right {
+    0% {
+        opacity: 0;
+        transform: translateX(500px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
