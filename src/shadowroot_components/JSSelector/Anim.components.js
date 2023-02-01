@@ -22,9 +22,9 @@ function Util(props) {
             <style>
                 {require('!raw-loader!./Anim.css').default}
             </style>
-            <button className="emoji container " ref={elements}>
+            <button className="emoji container" ref={elements}>
                 <h2>
-                    Im inside shadow root and i am unable to be animated with js selectors, so I am now animated with React.useRef. if you hover over me i will change my color
+                    Im inside shadow root and i am unable to be animated with js selectors, so I am now animated with React.useRef. if you move mouse out of me I will be hidden
                 </h2>
             </button>
         </>
@@ -40,8 +40,11 @@ JSAnim.defaultProps = {
 
 export default function JSAnim() {
     return (
-        <ShadowRoot>
-            <Util />
-        </ShadowRoot>
+        <>
+            Im not in shadow dom
+            <ShadowRoot>
+                <Util />
+            </ShadowRoot>
+        </>
     )
 }
