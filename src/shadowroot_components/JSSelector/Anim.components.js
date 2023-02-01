@@ -1,34 +1,47 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { ShadowRoot } from '../../wrappers/ShadowRoot';
+import './Anim.css'
 
-export default function EmojiAnim(props) {
+function Util(props) {
 
-    const { emoji } = props;
+    const elements = useRef(null);
+
+    useEffect(() => {
+        console.log(elements)
+        elements.current.addEventListener('mouseover', () => {
+            elements.current.classList.add('change-color')
+        });
+        elements.current.addEventListener('mouseout', () => {
+            elements.current.classList.remove('change-color')
+        });
+    }, []);
+
 
     return (
-        <ShadowRoot>
+        <>
             <style>
-                {`
-                  @keyframes run {
-                     0% {
-                          transform: translateX(0);
-                        }
-                     100% {
-                         transform: translateX(100%);
-                        }
-                 }`
-                }
+                {require('!raw-loader!./Anim.css').default}
             </style>
-            <div className="container">
-                <h1 className="bus">
-                    {emoji}
-                </h1>
-            </div>
-        </ShadowRoot>
+            <button className="emoji container " ref={elements}>
+                <h2>
+                    Im inside shadow root and i am unable to be animated with js selectors, so I am now animated with React.useRef. if you hover over me i will change my color
+                </h2>
+            </button>
+        </>
     )
+
 }
 
 
-EmojiAnim.defaultProps = {
-    emoji: '🚂🚎🚎'
+JSAnim.defaultProps = {
+
 };
+
+
+export default function JSAnim() {
+    return (
+        <ShadowRoot>
+            <Util />
+        </ShadowRoot>
+    )
+}

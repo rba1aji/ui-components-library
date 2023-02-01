@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import ReactDOM from 'react-dom/client';
 
 export function ShadowRoot({ children }) {
-    const shadowRoot = React.useRef(null);
+    const shadowRoot = useRef(null);
 
     React.useEffect(() => {
         const shadow = shadowRoot.current.attachShadow({ mode: 'open' });
