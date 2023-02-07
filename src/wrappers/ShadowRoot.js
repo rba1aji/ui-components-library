@@ -2,15 +2,15 @@ import React, { useRef } from 'react';
 import ReactDOM from 'react-dom/client';
 
 export function ShadowRoot({ children }) {
-    const shadowRoot = useRef(null);
+    const root = useRef(null);
 
     React.useEffect(() => {
-        const shadow = shadowRoot.current.attachShadow({ mode: 'open' });
-        ReactDOM.createRoot(shadow).render(children);
+        const shadowRoot = root.current.attachShadow({ mode: 'open' });
+        ReactDOM.createRoot(shadowRoot).render(children);
     }, [children]);
 
     return (
-        <div ref={shadowRoot}>{children}</div>
+        <div ref={root}>{children}</div>
     );
 
 }
