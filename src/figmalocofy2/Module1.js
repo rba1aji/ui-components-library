@@ -1,13 +1,11 @@
-import "./Container.css";
-import slipper from "../../public/slipper.png";
+import "./Module1.css";
+import "../global.css"
+import slipper from "../../public/slipper.png"
 
-const Container = () => {
+const Module1 = () => {
   return (
-    <div className="container">
-      <style>
-        {require('!raw-loader!./Container.css').default}
-      </style>
-      <section className="section">
+    <div className="module1">
+      <div className="module1left">
         <p className="description">
           <span className="description-txt">
             <span className="fashion-meets-comfort">
@@ -22,8 +20,8 @@ const Container = () => {
             </span>
           </span>
         </p>
-      </section>
-      <section className="section1">
+      </div>
+      <div className="module1right">
         <img className="slipper-img-icon" alt="" src={slipper} />
         <p className="hover-description">
           <span className="description-txt">
@@ -36,9 +34,9 @@ const Container = () => {
             </span>
           </span>
         </p>
-      </section>
+      </div>
     </div>
   );
 };
 
-export default Container;
+export default Module1;

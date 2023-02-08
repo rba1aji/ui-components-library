@@ -1,12 +1,12 @@
 import React from "react";
-import Container from "../figmalocofy2/Container";
+import Module1 from "../figmalocofy2/Module1";
 
 export default {
-    title: 'Components/FigmaLocofy2',
-    component: Container
+    title: 'Components/FigmaLocofy2/Cai Store',
+    component: Module1
 }
 
-const Template = (args) => <Container {...args} />;
+const Template = (args) => <Module1 {...args} />;
 
 
 export const Primary = Template.bind({});
