@@ -67,12 +67,18 @@ const Module1 = () => {
         </div>
       </div>
       <div className="m1-sec2">
-        <div className="m1-mid-container1">
-          <img className="img2-icon1" alt="" src={img2} />
-          <h5 className="text11">
-            <p className="bling-on-the">Bling On The Shine Waterless Shampoo</p>
-          </h5>
+        <div className="m1-left1" />
+        <div className="m1-mid1" data-animate-on-scroll>
+          <div className="m1-mid-container1">
+            <img className="img2-icon1" alt="" src={img2} />
+            <h5 className="text1">
+              <p className="bling-on-the">
+                Bling On The Shine Waterless Shampoo
+              </p>
+            </h5>
+          </div>
         </div>
+        <div className="m1-right1" />
       </div>
     </div>
   );
