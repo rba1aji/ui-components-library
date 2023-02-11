@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import "./Module2.css";
-import img1 from '../../../public/Module2/img1.webp';
-import img2 from '../../../public/Module2/img2.webp';
+import img1 from '../../../public/Module2/img1.png';
+import img2 from '../../../public/Module2/img2.png';
 import '../../global.css'
 
 const Module2 = () => {
