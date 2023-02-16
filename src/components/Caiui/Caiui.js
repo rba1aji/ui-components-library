@@ -13,16 +13,16 @@ import Gallery3 from '../../assets/Gallery3.webp'
 
 const Caiui = () => {
     return (
-        <main className="new-cai">
+        <main className="cai">
           <section className="video-section">
-            <video className="wrapper" autoPlay muted loop>
+            <video className="videocontainer" autoPlay muted loop>
               <source src="https://asset.weaveroo.io/cai/Heels/maroon-studded-heels/videos/cai.mp4" />
             </video>
           </section>
           <section className="perfectfit">
             <div className="perfectcontainer">
-              <h1 className="heading">Perfect fit</h1>
-              <p className="paragraph">
+              <h1 className="perfectheading">Perfect fit</h1>
+              <p className="perfectparagraph">
                 Bring out your festive personality with poise and maximise comfort
                 by 'opting for a size larger than usual for wider feet.' Mix comfort
                 and style with ease with the Maroon Studded Heels.
@@ -30,16 +30,16 @@ const Caiui = () => {
             </div>
           </section>
           <section className="timeless-and-comfy">
-            <div className="b8af48-94c0-438c-b13b-b24898e1-wrapper">
+            <div className="leftcontainer">
               <img
-                className="b8af48-94c0-438c-b13b-b24898e1-icon"
+                className="sandlesimage-icon"
                 alt=""
                 src={Cai1}
               />
             </div>
-            <div className="timeless-and-comfy-parent">
-              <h1 className="timeless-and-comfy1">Timeless and comfy</h1>
-              <p className="a-symphony-of">
+            <div className="rightcontainer">
+              <h1 className="heading">Timeless and comfy</h1>
+              <p className="paragraph">
                 A symphony of beautiful earthy shades with an open toe, Maroon
                 Studded Heels made of PU leather are sustainable, super comfortable
                 and super stylish.
@@ -47,33 +47,33 @@ const Caiui = () => {
             </div>
           </section>
           <section className="fashion-meets-comfort">
-            <div className="fashion-meets-comfort-parent">
-              <h1 className="fashion-meets-comfort1">Fashion meets comfort</h1>
-              <p className="a-chic-addition">
+            <div className="leftcontainer1">
+              <h1 className="heading1">Fashion meets comfort</h1>
+              <p className="paragraph1">
                 A chic addition to your look, these strappy sandals have super soft
                 nubuck sheet inner soles that provide comfort and are stylish in
                 equal measure. They feel as good as they look!
               </p>
             </div>
-            <div className="bf4bbc2-fc97-4098-a059-84c422c-wrapper">
+            <div className="rightcontainer1">
               <img
-                className="bf4bbc2-fc97-4098-a059-84c422c-icon"
+                className="sandlesimage2-icon"
                 alt=""
                 src={Cai2}
               />
             </div>
           </section>
-          <section className="cosy-style">
-            <div className="ac2693bf-7a07-48d4-a00a-25b67c-wrapper">
+          <section className="timeless-and-comfy">
+            <div className="leftcontainer2">
               <img
-                className="ac2693bf-7a07-48d4-a00a-25b67c-icon"
+                className="sandlesimage3-icon"
                 alt=""
                 src={Cai3}
               />
             </div>
-            <div className="cosy-style-parent">
-              <h1 className="cosy-style1">Cosy style</h1>
-              <p className="thoughtfully-crafted-footwear">
+            <div className="rightcontainer">
+              <h1 className="heading">Cosy style</h1>
+              <p className="paragraph">
                 Thoughtfully crafted footwear in PU leather with maroon studded
                 straps and mid heels, which look amazing and feel like the perfect
                 pair of everyday footwear.
@@ -81,17 +81,17 @@ const Caiui = () => {
             </div>
           </section>
           <section className="function-fashionably">
-            <div className="function-fashionably-parent">
-              <p className="function-fashionably1">FUNCTION FASHIONABLY!</p>
-              <p className="combining-function-and">
+            <div className="functionleftcontainer">
+              <p className="heading3">FUNCTION FASHIONABLY!</p>
+              <p className="paragraph3">
                 Combining function and form, CAI fashionably steers the conscious
                 consumption movement locally and globally with non-leather,
                 pocket-friendly footwear.
               </p>
             </div>
-            <div className="be79a2-ab6d-4a12-9499-2f5d55d8-wrapper">
+            <div className="functionrightcontainer">
               <img
-                className="be79a2-ab6d-4a12-9499-2f5d55d8-icon"
+                className="sandlesimage4-icon"
                 alt=""
                 src={Cai4}
               />
@@ -99,30 +99,30 @@ const Caiui = () => {
           </section>
           <section className="gif-section">
             <img
-              className="gif-section-child"
+              className="gifcontainer-icon"
               alt=""
               src="https://syndication-global-v3-wpageassetbucket-ymw4gzd09eqt.s3.amazonaws.com/cai-01/en/maroon-studded-heels/1/image/c1a0732d-378c-4b50-9434-a4d709c126ef.gif"
             />
           </section>
           <section className="gallery">
-            <div className="a1a36b-b0d4-4ab7-b4e0-7709675b-wrapper">
+            <div className="galleryleft">
               <img
-                className="a1a36b-b0d4-4ab7-b4e0-7709675b-icon"
+                className="galleryleftimage-icon"
                 alt=""
                 src={Gallery1}
               />
             </div>
-            <div className="frame-parent">
-              <div className="ada71205-d6db-4e3a-887e-56ec7f-wrapper">
+            <div className="galleryright">
+              <div className="sectiontop">
                 <img
-                  className="a1a36b-b0d4-4ab7-b4e0-7709675b-icon"
+                  className="galleryleftimage-icon"
                   alt=""
                   src={Gallery2}
                 />
               </div>
-              <div className="eaad5854-a23c-4935-be50-99eab4-wrapper">
+              <div className="sectionbottom">
                 <img
-                  className="a1a36b-b0d4-4ab7-b4e0-7709675b-icon"
+                  className="galleryleftimage-icon"
                   alt=""
                   src={Gallery3}
                 />
@@ -132,24 +132,24 @@ const Caiui = () => {
           <section className="magicdetail">
             <div className="magiccontainer">
               <img
-                className="desimage-icon"
+                className="magicimageleft-icon"
                 alt=""
-                src="../0f2468a5321b4a65ae7d2dcd6a2a627f-1@2x.png"
+                src={Cai5}
               />
               <img
-                className="desimage-icon"
+                className="magicimageleft-icon"
                 alt=""
-                src="../c47c5fb07f1240de908e5542930af6c7-1@2x.png"
+                src={Cai6}
               />
             </div>
           </section>
           <section className="review">
-            <div className="frame-group">
-              <div className="customer-reviews-parent">
-                <div className="customer-reviews">Customer Reviews</div>
-                <div className="jg-parent">
+            <div className="reviewleft">
+              <div className="reviewcontainer">
+                <div className="heading4">Customer Reviews</div>
+                <div className="jgreviewstar">
                   <div className="jg">J.G</div>
-                  <div className="ef-aadb-4f47-9961-fed46d093f01-parent">
+                  <div className="staricon">
                     <img
                       className="ef-aadb-4f47-9961-fed46d093f01-icon"
                       alt=""
@@ -177,14 +177,14 @@ const Caiui = () => {
                     />
                   </div>
                 </div>
-                <div className="the-cai-store">
+                <p className="paragraph4">
                   The cai store has outdone themselves with this collection!!
-                </div>
+                </p>
               </div>
-              <div className="frame-container">
-                <div className="pg-parent">
+              <div className="pgreview">
+                <div className="pgreviewstar">
                   <div className="jg">P.G</div>
-                  <div className="ef-aadb-4f47-9961-fed46d093f01-parent">
+                  <div className="staricon">
                     <img
                       className="ef-aadb-4f47-9961-fed46d093f01-icon"
                       alt=""
@@ -212,17 +212,17 @@ const Caiui = () => {
                     />
                   </div>
                 </div>
-                <div className="from-the-point">
+                <p className="paragraph5">
                   From the point of view of comfort, it is well and good. I love
                   wearing this as its very light and comfy....
-                </div>
+                </p>
               </div>
             </div>
-            <div className="bcd071-f99b-436c-bc36-38a5bfa4-wrapper">
+            <div className="reviewright">
               <img
-                className="bcd071-f99b-436c-bc36-38a5bfa4-icon"
+                className="reviewimage-icon"
                 alt=""
-                src="../96bcd071f99b436cbc3638a5bfa4042a-1@2x.png"
+                src={Cai7}
               />
             </div>
           </section>
