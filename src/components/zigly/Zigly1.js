@@ -33,7 +33,10 @@ import img222 from '../../../public/image-22@2x.png'
 import img32a from '../../../public/image-3@2x.png'
 import img32x from '../../../public/img3@2x.png'
 import img42x from '../../../public/image-4@2x.png'
+import img00 from '../../../public/img1@2x.png'
 import img0 from '../../../public/image-2@2x.png'
+import img11a from '../../../public/img11@2x.png'
+import img111 from '../../../public/image-1@2x.png'
 
 const Zigly1 = () => {
   useEffect(() => {
@@ -74,7 +77,8 @@ const Zigly1 = () => {
             <img
               className="img1-icon"
               alt=""
-              src="static/media/public/img1@2x.png"
+              // src="static/media/public/img1@2x.png"
+              src={img00}
               data-animate-on-scroll
             />
           </div>
@@ -130,8 +134,8 @@ const Zigly1 = () => {
         </div>
         <div className="m2-right">
           <img className="img1-icon1" alt=""
-            src="static/media/public/img11@2x.png"
-          // src={img11}
+            // src="static/media/public/img11@2x.png"
+            src={img11a}
           />
         </div>
       </div>
@@ -166,7 +170,7 @@ const Zigly1 = () => {
             <div className="image-1-wrapper">
               <img className="image-1-icon" alt=""
                 // src="static/media/public/image-1@2x.png"
-                src={img12a}
+                src={img111}
               />
             </div>
             <p className="prevents-odour">Prevents odour</p>

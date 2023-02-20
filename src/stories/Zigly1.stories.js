@@ -1,7 +1,7 @@
 import Zigly1 from "../components/zigly/Zigly1"
 
 export default {
-    title: 'Components/Zigly/Design 1',
+    title: 'Zigly/Design 1',
     component: Zigly1,
 }
 
