@@ -935,14 +935,19 @@ body {
       padding-right: 0;
       padding-bottom: var(--padding-9xs);
       box-sizing: border-box;
+      width: 100%;
+      position:relative;
     }
     .galleryleft,
     .galleryright {
       flex: unset;
       align-self: stretch;
+      display: block;
+      width: 100%;
     }
     .gallery {
       flex-direction: column;
+      
     }
     .magiccontainer,
     .magicimageleft-icon {
@@ -977,3 +982,14 @@ body {
       flex: 1;
     }
   }
+
+
+
+
+
+
+
+  
+
+
+
